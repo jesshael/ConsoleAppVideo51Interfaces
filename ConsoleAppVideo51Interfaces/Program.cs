@@ -6,7 +6,20 @@ namespace ConsoleAppVideo51Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // SAMPLE BUILDING FOR JESSHAEL
+
+            NotificationsTrafic trafic1 = new NotificationsTrafic();
+            NotificationsTrafic trafic2 = new NotificationsTrafic("Location Fort Worth", "Speed Velocity", DateTime.Now.ToString() );
+
+            trafic1.showNotification();
+
+            Console.WriteLine(trafic2.getDate());
+
+            trafic2.showNotification();
+
+            
+
         }
+
     }
 }
