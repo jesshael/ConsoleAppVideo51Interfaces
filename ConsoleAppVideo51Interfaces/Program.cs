@@ -6,7 +6,7 @@ namespace ConsoleAppVideo51Interfaces
     {
         static void Main(string[] args)
         {
-            // SAMPLE BUILDING FOR JESSHAEL
+            // SAMPLE BUILDING FOR JESSHAEL jesshael@outlook.com
 
             NotificationsTrafic trafic1 = new NotificationsTrafic();
             NotificationsTrafic trafic2 = new NotificationsTrafic("Location Fort Worth", "Speed Velocity", DateTime.Now.ToString() );
